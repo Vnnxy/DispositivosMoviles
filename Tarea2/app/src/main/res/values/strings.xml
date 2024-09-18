@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+    <string name="Selección">¿Qué deseas cocinar?</string>
+    <string name="comida">Comida</string>
+    <string name="cena">Cena</string>
+    <string name="desayuno">Desayuno</string>
+    <string name="postre">Postre</string>
+    <string name="NombreReceta">Tiramisú</string>
+    <string name="IngredientesT">Ingredientes:</string>
+    <string name="Ingredientes">\u2022 500 ml de agua \n\u2022 4 cucharadas colmadas de café granulado \n\u2022 5 cucharadas de amaretto (o a gusto) \n\u2022 1 cucharada de azúcar \n\u2022 4 yemas de huevo \n\u2022 250g de azúcar flor</string>
+    <string name="PreparacionT">Preparación:</string>
+    <string name="Paso">1. Hervir los 500 ml de agua.\n2. Verter sobre un bol y agregar el café. Revolver bien.\n3. Añadir el amaretto y azúcar y revolver. Reservar. \n4. En un bol, batir las yemas con 125g de azúcar flor, hasta que la mezcla quede uniforme y de un color amarillo claro. Reservar.\n5. En otro bol, batir el queso crema previamente molido con la crema de leche, hasta que quede una mezcla suave. Reservar. \n6. En otro bol, batir la crema para batir (recién sacada del refrigerador) e ir agregando de a poco 125g de azúcar flor, sin parar de batir. La crema tiene que quedar firme, cuidando que no se corte. \n7. Juntar la mezcla de las yemas con la mezcla del queso crema con movimientos envolventes, hasta que quede una mezcla homogénea. Agregar esta mezcla de a poco a la crema batida, con movimientos envolventes y cuidando que quede todo bien mezclado.\n
+</string>
+    <string name="Paso2"> 8. Usar una fuente grande de 35x25cm.\n9. Mojar una a una las galletas de champaña en el café e ir poniéndolas en la base de la fuente, hasta cubrirla completamente.\n10. Agregar la mitad de la mezcla. Luego, agregar otra capa de galletas de champaña mojadas en café.\n11. Poner la otra mitad de la mezcla. Espolvorear completamente con Chocolate, pasando éste por un colador.\n12. Poner en el congelador por 2 horas para que obtenga consistencia. Luego bajar al refrigerador y mantenerlo ahí.</string>
+    <string name="Boton1">Regresar</string>
+    <string name="Boton2">Ver video</string>
+</resources>

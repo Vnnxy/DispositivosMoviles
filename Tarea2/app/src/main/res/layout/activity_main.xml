@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuSeleccion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9FA"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:gravity="center"
+
+        android:padding="4dp"
+        android:text="@string/Selección"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/desyauno_layout">
+
+
+            <ImageButton
+                android:id="@+id/desyauno"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/desayuno"
+                android:scaleType="centerInside"
+                android:src="@drawable/breakfast" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desayuno"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/comida_layout">
+
+            <ImageButton
+                android:id="@+id/comida"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/comida"
+                android:scaleType="centerInside"
+                android:src="@drawable/meal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comida"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <!-- Dinner Button -->
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/cena_layout">
+
+            <ImageButton
+                android:id="@+id/cena"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/cena"
+                android:scaleType="centerInside"
+                android:src="@drawable/dinner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cena"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <!-- Dessert Button -->
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/postres_layout">
+
+            <ImageButton
+                android:id="@+id/postres"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/postre"
+                android:scaleType="centerInside"
+                android:src="@drawable/dessert" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/postre"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </GridLayout>
+
+</LinearLayout>
+
