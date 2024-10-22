@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tarea2</string>
+    <string name="app_name">Tarea3</string>
     <string name="Selección">¿Qué deseas cocinar?</string>
     <string name="comida">Comida</string>
     <string name="cena">Cena</string>
@@ -14,4 +14,8 @@
     <string name="Paso2"> 8. Usar una fuente grande de 35x25cm.\n9. Mojar una a una las galletas de champaña en el café e ir poniéndolas en la base de la fuente, hasta cubrirla completamente.\n10. Agregar la mitad de la mezcla. Luego, agregar otra capa de galletas de champaña mojadas en café.\n11. Poner la otra mitad de la mezcla. Espolvorear completamente con Chocolate, pasando éste por un colador.\n12. Poner en el congelador por 2 horas para que obtenga consistencia. Luego bajar al refrigerador y mantenerlo ahí.</string>
     <string name="Boton1">Regresar</string>
     <string name="Boton2">Ver video</string>
+    <string name="share">Compartir</string>
+    <string name="settings">Opciones</string>
+    <string name="favs">Favoritos</string>
+    <string name="search" >Buscar</string>
 </resources>
