@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -74,15 +75,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (id == R.id.action_search) {
             displayToast(getString(R.string.action_search_message));
+            displayLog(getString(R.string.action_search_message));
             return true;
         } else if (id == R.id.action_setting) {
             displayToast(getString(R.string.action_setting_message));
+            displayLog(getString(R.string.action_setting_message));
             return true;
         } else if (id == R.id.action_share) {
             displayToast(getString(R.string.action_share_message));
+            displayLog(getString(R.string.action_share_message));
             return true;
         } else if (id == R.id.action_favorites) {
             displayToast(getString(R.string.action_favorites_message));
+            displayLog(getString(R.string.action_favorites_message));
             return true;
         }
 
@@ -100,6 +105,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message,
                 Toast.LENGTH_SHORT).show();
+    }
+
+    public void displayLog(String message){
+        Log.d("Currently pressed", message);
     }
 
     /**
@@ -125,21 +134,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             // Handle the gallery action (for now display a toast).
             drawer.closeDrawer(GravityCompat.START);
             displayToast(getString(R.string.chose_gallery));
+            displayLog(getString(R.string.chose_gallery));
             return true;
         } else if (itemId == R.id.nav_create) {
             // Handle the tools action (for now display a toast).
             drawer.closeDrawer(GravityCompat.START);
             displayToast(getString(R.string.chose_create));
+            displayLog(getString(R.string.chose_create));
             return true;
         } else if (itemId == R.id.acc_set) {
             // Handle the share action (for now display a toast).
             drawer.closeDrawer(GravityCompat.START);
             displayToast(getString(R.string.chose_acc));
+            displayLog(getString(R.string.chose_acc));
             return true;
         } else if (itemId == R.id.nav_fav) {
             // Handle the send action (for now display a toast).
             drawer.closeDrawer(GravityCompat.START);
             displayToast(getString(R.string.chose_favs));
+            displayLog(getString(R.string.chose_favs));
             return true;
         }
         return false;
