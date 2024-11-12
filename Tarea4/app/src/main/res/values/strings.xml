@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tarea4</string>
+    <string name="Selección">¿Qué deseas cocinar?</string>
+    <string name="comida">Comida</string>
+    <string name="cena">Cena</string>
+    <string name="desayuno">Desayuno</string>
+    <string name="postre">Postre</string>
+    <string name="NombreTiramisu">Tiramisú</string>
+    <string name="NombrePollo">Pierna a la mostaza</string>
+    <string name="NombreGalletas">Galletas de avena</string>
+    <string name="NombreChangua">Changua</string>
+    <string name="IngredientesT">Ingredientes:</string>
+    <string name="IngredientesTiramisu">\u2022 500 ml de agua \n\u2022 4 cucharadas colmadas de café granulado \n\u2022 5 cucharadas de amaretto (o a gusto) \n\u2022 1 cucharada de azúcar \n\u2022 4 yemas de huevo \n\u2022 250g de azúcar flor</string>
+    <string name= "IngredientesPiernaMostaza">\u2022 2cdas mostaza \n\u2022 1cda miel de abeja \n \u2022 Orégano \n \u2022 Pimienta \n \u2022 4 Piezas, Pierna o muslo de pollo</string>
+    <string name="IngredientesGalleta">\u2022 1 taza avena en hojuelas\n \u2022 1/2 taza harina de trigo \n \u2022 1/2 taza azúcar morena \n \u2022 1/2 taza mantequilla (a temperatura ambiente) \n \u2022 1 huevo \n \u20221 cucharadita esencia de vainilla \n \u2022 1/2 cucharadita bicarbonato de sodio\n \u2022 1/4 cucharadita sal</string>
+    <string name="IngredientesChangua">\u2022 4 huevos\n \u2022 2 cucharadas de cebolla picada \n \u2022 1 cucharada de cilantro picado \n \u2022 5gr de mantequilla \n \u2022 Sal y pimienta \n\u2022 Cubitos queso mozarella al gusto \n \u2022 Queso parmesano rallado</string>
+    <string name="PreparacionT">Preparación:</string>
+    <string name="PasoTiramisu">1. Hervir los 500 ml de agua.\n2. Verter sobre un bol y agregar el café. Revolver bien.\n3. Añadir el amaretto y azúcar y revolver. Reservar. \n4. En un bol, batir las yemas con 125g de azúcar flor, hasta que la mezcla quede uniforme y de un color amarillo claro. Reservar.\n5. En otro bol, batir el queso crema previamente molido con la crema de leche, hasta que quede una mezcla suave. Reservar. \n6. En otro bol, batir la crema para batir (recién sacada del refrigerador) e ir agregando de a poco 125g de azúcar flor, sin parar de batir. La crema tiene que quedar firme, cuidando que no se corte. \n7. Juntar la mezcla de las yemas con la mezcla del queso crema con movimientos envolventes, hasta que quede una mezcla homogénea. Agregar esta mezcla de a poco a la crema batida, con movimientos envolventes y cuidando que quede todo bien mezclado.\n
+</string>
+    <string name="PasoPiernaMostaza">1. En un bowl mezclamos la mostaza con la miel, el orégano y la pimienta. \n2.Con ayuda de una brocha o lo que tengas en casa, unta la mezcla sobre la Pierna y Muslo hasta que se encuentre totalmente cubierto.\n3.Cocinamos en freidora de aire durante 25 min. a 200° Podemos agregar romero para otorgarle un aroma cálido.\n4.¡Y listo! Puedes adornar con naranja deshidratada y romero.\n</string>
+    <string name="PasoGalleta">1.Precalienta el horno a 180°C\n 2.Mezcla harina,avena,bicarbonato y sal en un bol,(reserva)\n 3.Bate la mantequilla con azúcar morena en otro bol hasta obtener la cremosidad deseada\n4.Agrega el huevo y la esencia de vainilla y mezcla bien \n 5.Añade la mezcla de avena y combina todo\n 6.Forma bolitas con la masa y colócalas en una bandeja de horno\n 7.Preciona ligeramente con un tenedor \n 8.Hornea 12-15 minutos a 180°C,hasta dorar los bordes \n 9.
+Enfría brevemente antes de transferir a una rejilla para enfriar completamente\n</string>
+    <string name="Paso2Tiramisu"> 8. Usar una fuente grande de 35x25cm.\n9. Mojar una a una las galletas de champaña en el café e ir poniéndolas en la base de la fuente, hasta cubrirla completamente.\n10. Agregar la mitad de la mezcla. Luego, agregar otra capa de galletas de champaña mojadas en café.\n11. Poner la otra mitad de la mezcla. Espolvorear completamente con Chocolate, pasando éste por un colador.\n12. Poner en el congelador por 2 horas para que obtenga consistencia. Luego bajar al refrigerador y mantenerlo ahí.</string>
+    <string name="PasoChangua">1. En una olla agregar 5gr de mantequilla hasta que se derrita y adicionar 2 cucharadas de cebolla larga picada (incluyendo parte blanca y parte verde) dejar dorar por aproximadamente 3 minutos.\n 2.A la preparación anterior agregar 2 tazas de agua, 2 tazas de leche, 1 cucharada de cilantro picado, sal y pimienta al gusto.\n 3.Cuando la preparación anterior hierva agregar con delicadeza los huevos (sin que las yemas se revienten) \n 4.Servir en tazas individuales que se puedan meter al horno. En cada taza agregar caldo y 2 huevos. Agregar cubitos de queso mozarella y queso parmesano rallado.\n 5.Introducir al horno a 200º con calor arriba y abajo por 10 minutos o hasta que se vea gratinado.\n </string>
+    <string name="Boton1">Regresar</string>
+    <string name="Boton2">Ver video</string>
+</resources>
