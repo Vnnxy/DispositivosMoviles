@@ -62,6 +62,7 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
         TextView textPasos2 = findViewById(R.id.Pasos2);
         TextView name = findViewById(R.id.Name);
         ImageView imagenReceta = findViewById(R.id.ImagenReceta);
+        Button video = findViewById(R.id.video);
 
         switch(seleccion){
             case "postre":
@@ -70,6 +71,10 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
                 textPasos.setText(R.string.PasoTiramisu);
                 name.setText(R.string.NombreTiramisu);
                 imagenReceta.setImageResource(R.drawable.recipe_0006_tiramisu);
+                video.setOnClickListener((v)->{
+                    Intent videointent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/7VTtenyKRg4?si=56Oq8Fp8woUYQye2"));
+                    startActivity(videointent);
+                });
                 break;
             case "cena":
                 setTitle("Cena");
@@ -78,6 +83,10 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
                 textPasos2.setText("");
                 name.setText(R.string.NombreChangua);
                 imagenReceta.setImageResource(R.drawable.changua);
+                video.setOnClickListener((v)->{
+                    Intent videointent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/avYreG_4f7Y?si=ir2XmMzCU-QCaPnD"));
+                    startActivity(videointent);
+                });
                 break;
             case "desayuno":
                 setTitle("Desayuno");
@@ -86,6 +95,10 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
                 textPasos2.setText("");
                 name.setText(R.string.NombreGalletas);
                 imagenReceta.setImageResource(R.drawable.galleta);
+                video.setOnClickListener((v)->{
+                    Intent videointent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/kSvexYR2w6E?si=a7gqlTp_JwvtD9Zp"));
+                    startActivity(videointent);
+                });
                 break;
             case "comida":
                 setTitle("Comida");
@@ -94,6 +107,10 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
                 textPasos2.setText("");
                 name.setText(R.string.NombrePollo);
                 imagenReceta.setImageResource(R.drawable.muslo);
+                video.setOnClickListener((v)->{
+                    Intent videointent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/vAwzoq_rPcg?si=DkM2l1JJO7WVCe92"));
+                    startActivity(videointent);
+                });
                 break;
             default:
                 break;

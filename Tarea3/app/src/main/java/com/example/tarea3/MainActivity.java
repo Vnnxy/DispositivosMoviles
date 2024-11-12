@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         //Vista 1
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
 
         //Vista2
-        //setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main2);
 
 
         Toolbar toolbars = findViewById(R.id.toolbar);

@@ -165,6 +165,7 @@
                 android:text="@string/Boton1" />
 
             <Button
+                android:id="@+id/video"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
