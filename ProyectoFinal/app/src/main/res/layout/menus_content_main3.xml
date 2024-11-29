@@ -27,11 +27,7 @@
             android:text="@string/Opciones"
             android:paddingTop="16dp"
             android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/escribir"
@@ -43,11 +39,8 @@
             android:contentDescription="@string/escribirre"
             android:scaleType="centerInside"
             android:layout_below="@id/Opcion"
-            android:src="@drawable/write"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:src="@drawable/write" />
+
         <TextView
             android:id="@+id/t1"
             android:layout_width="match_parent"
@@ -56,28 +49,18 @@
             android:gravity="center"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:layout_below="@id/escribir"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            android:layout_below="@id/escribir" />
 
         <ImageButton
             android:id="@+id/MisRe"
             android:layout_width="match_parent"
-            android:paddingTop="60dp"
             android:layout_height="190dp"
             android:gravity="center"
             android:background="?attr/selectableItemBackground"
             android:contentDescription="@string/misrecetas"
             android:scaleType="centerInside"
             android:layout_below="@id/t1"
-            android:src="@drawable/recetas"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:src="@drawable/recetas" />
 
         <TextView
             android:id="@+id/t2"
@@ -87,16 +70,19 @@
             android:gravity="center"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:layout_below="@id/MisRe"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            android:layout_below="@id/MisRe" />
 
 
-
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t2"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FBA068"
+            android:text="@string/Boton1" />
 
     </RelativeLayout>
+
 
 </ScrollView>

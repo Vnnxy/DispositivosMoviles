@@ -66,7 +66,11 @@ public class MainActivity3 extends AppCompatActivity implements NavigationView.O
             startActivity(intent);
         });
 
-
+        Button button = findViewById(R.id.regresar);
+        button.setOnClickListener((view)->{
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        });
 
     }
 
